@@ -106,5 +106,11 @@
   * ### Partitioning:
     * The system continues to function and upholds its consistency guarantees in spite of network partitions.
     * If we can tolerate the partition, and even though if partition happens and system can still be available and consistent is called partition tolerance.
-  * ### CAP theorem:
-    * 
+  * ### CAP theorem (Brewer Theorem):
+    * Any network shared system wants to have these three properties.
+    * In such a system, having all three properties is nearly impossible.
+    * We need to sacrifice one of them.
+    * Partition tolerance happens due to network failures, and we do not have complete control over network failures.
+    * Hence, partition tolerance becomes a mandatory property to support.
+    * #### Degrees of Consistency and Availability:
+      * 
