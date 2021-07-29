@@ -97,3 +97,14 @@
             * If any replica fails, system will be in a inconsistent state.
         * Semi-synchronous replication:
           * Whenever a new write is issued, the primary database will update the value to all the replicas, and will wait for one of the replicas to acknowledge.
+
+## CAP (Consistency, Availability, and Partitioning)
+  * ### Consistency:
+    * In a consistent system, once a client writes a value to any server and gets a response, it expects to get that value (or a fresher value) back from any server it reads from.
+  * ### Availability:
+    * In an available system, if the client sends a request to a server and the server has not crashed, then the server must eventually respond to the client. The server is not allowed to ignore the client's requests.
+  * ### Partitioning:
+    * The system continues to function and upholds its consistency guarantees in spite of network partitions.
+    * If we can tolerate the partition, and even though if partition happens and system can still be available and consistent is called partition tolerance.
+  * ### CAP theorem:
+    * 
