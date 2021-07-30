@@ -112,5 +112,6 @@
     * We need to sacrifice one of them.
     * Partition tolerance happens due to network failures, and we do not have complete control over network failures.
     * Hence, partition tolerance becomes a mandatory property to support.
-    * #### Degrees of Consistency and Availability:
-      * 
+
+## Database Sharding
+  * 
