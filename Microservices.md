@@ -161,3 +161,53 @@
     * Cached response
     * Fallback mechanism
     * Recover 
+
+<hr/>
+
+## Service Mesh:
+  * Problems faced in inter microservices communication:
+    * Load Balance
+    * Service discovery 
+    * Metrics
+    * Retries
+    * Circuit Breaking
+    * Timeout
+  * Service mesh: A component which runs along with every microservice deployment and helps to do all of the above problems.
+  * It is a sidecar pattern.
+     * For every microservice instance, there will be an instance of service mess which is running in that container. 
+  * It also implements proxy design pattern.
+  * In service mesh, there are two major components:
+     1. Control Plane
+        * The centralized hub or a single hub which acts like a control panel from which we can configure configurations for all of the proxies which are side loaded whith every microservice running in every instance.
+     2. Data Plane
+        * It is comprised of proxies and all of the requests goes through these proxies.
+
+<hr/>
+
+## Deployment Strategies:
+  * Deployment goals:
+     1. Scalability and throughput
+     2. Reliable and available
+     3. Isolation
+     4. Resource limit
+     5. Monitor
+     6. Cost effective
+   * Patterns:
+     1. Multiple Servers Per Host:
+        * Advantages:
+          * Efficient resource utilization
+          * Fast deployment
+        * Disadvantages:
+          * Poor isolation
+          * No resource limit
+          * Dependency conflict 
+     2. Service per VM/container:
+        * Advantages:
+          * Isolation and secure
+          * Manageable
+          * Fast(containers only)
+          * Autoscaling
+        * Disadvantages:
+          * Slow (VM only)
+          * Not efficient (VM only)
+          * Not so secure (containers)
