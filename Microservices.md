@@ -211,3 +211,14 @@
           * Slow (VM only)
           * Not efficient (VM only)
           * Not so secure (containers)
+     3. Serverless:
+        * Advantages:
+          * Focus on code
+          * Pay as you go
+          * No scaling worries
+        * Disadvantages:
+          * Runtime support
+          * Expensive
+          * Vendor lock
+          * Debugging pain
+          * Stateless and short running process only
