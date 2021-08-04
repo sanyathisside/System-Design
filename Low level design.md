@@ -73,7 +73,6 @@
   * ### Object diagram:
     * We use OBJECT DIAGRAMS to show objects in software designs.
       ![image](https://user-images.githubusercontent.com/55986045/128106100-a40ac05a-5bcc-403a-95ff-37c28aec8716.png)
-      <hr/>
       ![image](https://user-images.githubusercontent.com/55986045/128106128-5e96a3b2-45c2-4f13-9c92-50a59f5f8349.png)
 
 
