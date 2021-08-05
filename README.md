@@ -2,7 +2,7 @@
 
 ## Introduction: 
 
-### What is the system? 
+### What is system? 
  * A system is a loosely used term for an architecture or collection of software or technology that communicate with each other or interact with each other in order to serve a certain set of users with a certain set of requirements.
  * A system can be defined and built keeping these three factors in mind:
     1. The user of the systems 
